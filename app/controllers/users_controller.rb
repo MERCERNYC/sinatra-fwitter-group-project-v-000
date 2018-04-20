@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
 
   get '/' do
-    erb :'../views/users/home'
+    erb :'/users/home'
   end
 end
