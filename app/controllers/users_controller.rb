@@ -1,4 +1,4 @@
-class UsersController < Sinatra::Base
+class UsersController < ApplicationController
 
   get '/' do
     erb :'../views/users/home'
