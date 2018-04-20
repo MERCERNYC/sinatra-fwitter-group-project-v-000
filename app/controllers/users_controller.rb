@@ -4,7 +4,7 @@ class UsersController < ApplicationController
     erb :'/users/home'
   end
 
-  get '/new' do
+  get '/signup' do
 
   end
 end
